@@ -17,7 +17,7 @@ document.addEventListener("mouseover", (e) => {
     e.target.style.backgroundColor = getRandomColor();
     let brightness = e.target.dataset.brightness;
     e.target.dataset.brightness = brightness - 0.1 > 0 ? brightness - 0.1 : 0;
-    e.target.style.filter = `brightness(${e.target.dataset.brightness})`;
+    // e.target.style.filter = `brightness(${e.target.dataset.brightness})`;
   }
 });
 
